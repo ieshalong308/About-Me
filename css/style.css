@@ -1,0 +1,30 @@
+/* style.css - Beginner version, Turquoise & Champagne */
+
+/* Page text */
+body {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: turquoise;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Section 1 */
+.section1 {
+  border: 2px solid turquoise;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Section 2 */
+.section2 {
+  border: 2px solid #e6be8a; /* champagne */
+  padding: 10px;
+  margin: 10px;
+}

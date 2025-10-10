@@ -1,0 +1,30 @@
+
+
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+
+header {
+  background-color: turquoise;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+
+.section1 {
+  border: 2px solid turquoise;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.section2 {
+  border: 2px solid #e6be8a; /* champagne */
+  padding: 10px;
+  margin: 10px;
+}

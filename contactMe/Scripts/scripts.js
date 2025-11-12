@@ -1,4 +1,4 @@
-document.getElementById("contactForm").addEventListener("submit", function(e) {
+  document.getElementById("contactForm").addEventListener("submit", function(e) {
       e.preventDefault(); // Prevent the page from reloading
 
       // Collect all field values
@@ -23,7 +23,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
                             .map(cb => cb.value)
                             .join(", ") || "None";
 
-      
+      // Display everything in an alert
       alert(
         `--- CONTACT FORM DATA ---\n\n` +
         `Name: ${name}\nEmail: ${email}\nPassword: ${password}\nPhone: ${phone}\nWebsite: ${website}\nAge: ${age}\nDate of Birth: ${dob}\nPreferred Time: ${time}\nFavorite Color: ${color}\nInterest Level: ${range}\nContact Method: ${contactMethod}\nServices Interested In: ${services}\nTopic: ${topic}\nMessage: ${message}`
